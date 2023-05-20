@@ -1,0 +1,459 @@
+
+body {
+    margin: 0px;
+    font-family: "Century Gothic";
+}
+
+header {
+    height: 500px;
+    background-image: url(img/header_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: -300px;
+}
+
+.button {
+    background-image: url(img/icons8-room-100.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #FFC300;
+    height: 80px;
+    width: 150px;
+    position: relative;
+    left: 5%;
+    top: 48px;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    margin-top: 0px;
+    position: relative;
+    top: -16px;
+    width: 1903px;
+    background-color: rgba(246, 221, 204, 60%);
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 900px;
+    height: 100px;
+    position: relative;
+    left: 10%;
+    list-style: none;
+}
+
+.prices {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 200px;
+    background-color: #FFC300;
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.lofts {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 200px;
+    background-color: #FFC300;
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.we {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 200px;
+    background-color: #FFC300;
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rent {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    height: 80px;
+    width: 200px;
+    background-color: #FFC300;
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.prices:hover {
+    background-color: #472528;
+}
+
+.lofts:hover {
+    background-color: #472528;
+}
+
+.we:hover {
+    background-color: #472528;
+}
+
+.rent:hover {
+    background-color: #472528;
+}
+
+main {
+    background-color: #E5E7E9;
+    height: 600px;
+}
+
+.main2 {
+    background-color: #E5E7E9;
+    height: 400px;
+}
+
+.kontakti {
+    text-align: center;
+}
+
+.license {
+    text-decoration: none;
+    position: relative;
+    left: 47%;
+    transition: 0.3s;
+}
+
+.license:hover {
+    color: #000;
+}
+
+.name_vidov {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #573414;
+    height: 250px;
+    display: flex;
+}
+
+.p_footer {
+    margin-top: 0px;
+    position: relative;
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top: 5%;
+    left: 30%;
+}
+
+.div_sites {
+    margin: auto;
+    align-items: center;
+    display: block;
+}
+
+.foot_sites {
+    width: fit-content;
+    list-style: none;
+    position: relative;
+    top: 40%;
+    left: 70%;
+}
+
+.foot_site {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.foot_site:hover {
+    color: #9b6464;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contli {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+    position: relative;
+    left: 106%;
+}
+
+
+.whatsapp {
+    background-image: url(img/icons8-whatsapp-100.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    transition: 0.4s;
+    border-radius: 60px;
+}
+
+.whatsapp:hover {
+    background-color: #32c206;
+}
+
+.vk {
+    background-image: url(img/icons8-vk-100.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    transition: 0.4s;
+    border-radius: 60px;
+}
+
+.vk:hover {
+    background-color: #471cbe;
+}
+
+.telegram {
+    background-image: url(img/icons8-telegram-100.png);
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    transition: 0.4s;
+    border-radius: 60px;
+}
+
+.telegram:hover {
+    background-color: #5c39dd;
+}
+
+.li_main {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+}
+
+.rustext {
+    margin-top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.li_main img {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.agree_li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+.mainrent {
+    height: 350px;
+}
+
+.intext {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    width: 350px;
+    background-color: white;
+    border: solid 2px #FFC300;
+    border-radius: 5px;
+}
+
+.bforin {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 15px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #e27319;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 60px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.main_prices {
+    height: 300px;
+}
+
+.main_prices img {
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 70%;
+    top: -140px;
+}
+
+.list_prices {
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+}
+
+.price_text {
+    color: red;
+    font-weight: bold;
+}
+
+.mainlofts {
+    display: block;
+    height: 1150px;
+}
+
+.difloft_text {
+    width: fit-content;
+    margin: auto;
+}
+
+.eco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+.lofte1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.lofte2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.lofte3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.comfort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 700px;
+}
+
+.loftc1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.loftc2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.loftc3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.premium {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+}
+
+.loftp1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.loftp2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.loftp3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.indexloft {
+    height: 300px;
+    width: 300px;
+}
+
+
+.divmain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 1000px;
+}
+
+.divmaintext {
+    text-align: center;
+}
+
+.lofts_name {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.rights {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    font-size: 18px;
+    top: 80%;
+    left: 2%;
+    margin: 0px;
+    height: fit-content;
+}
+
+@media (min-width: 1023) and (max-width: 1281) {
+    body{height: 100dvh;}
+    .contacts{left: -100px;}
+    .contli{left: -100px;}
+}
+
+@media (min-width: 800px) {
+    
+}
