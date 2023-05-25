@@ -32,7 +32,7 @@ header {
     margin-top: 0px;
     position: relative;
     top: -16px;
-    width: 1903px;
+    width: 100%;
     background-color: rgba(246, 221, 204, 60%);
 }
 
@@ -41,7 +41,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    width: 900px;
+    width: 1000px;
     height: 100px;
     position: relative;
     left: 10%;
@@ -141,6 +141,13 @@ main {
 }
 
 .name_vidov {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.name_vidovs {
     display: block;
     text-align: center;
     margin-top: 0px;
@@ -324,6 +331,7 @@ footer {
     width: fit-content;
     margin: auto;
     list-style: none;
+    position: relative;
 }
 
 .price_text {
@@ -448,12 +456,81 @@ footer {
     height: fit-content;
 }
 
-@media (min-width: 1023) and (max-width: 1281) {
-    body{height: 100dvh;}
-    .contacts{left: -100px;}
-    .contli{left: -100px;}
+@media (max-width: 1600px) {
+    body{width: 100%;}
+    .contli{left: 25%;}
+    .p_footer{left: 20%;}
+    .foot_sites{left: 10%;}
 }
 
-@media (min-width: 800px) {
-    
+@media (max-width: 1410px) {
+    body{width: 100%;}
+    .contli{left: 10%;}
+    .p_footer{left: 20%;}
+    .foot_sites{left: 10%;}
+    .menu-list{width: 850px;}
+}
+
+@media (min-width: 1100px) and (max-width: 1281px) {
+    body{height: 100%;}
+    .contli{left: 4%;}
+    .p_footer{left: 21%;}
+    .foot_sites{left: 0%;}
+    .menu-list{left: 5%}
+    .button{left: 5%;}
+}
+
+@media (max-width: 1100px) {
+    body{height: 100%;}
+    .contli{left: -25%;}
+    .p_footer{left: 15%;}
+    .foot_sites{left: 0%;}
+    .menu-list{left: 0%}
+    .button{left: 0%;}
+}
+
+@media (max-width: 950px) {
+    body{height: 100%;}
+    .contli{left: -30%;}
+    .p_footer{left: 16%;}
+    .foot_sites{left: -15%;}
+    .menu-list{left: 0%}
+    .button{left: 1%;}
+    .indexloft{width: 250px;
+    height: 250px;}
+    .divmain{width: 850px;}
+    .prices{width: 150px;}
+    .lofts{width: 150px;}
+    .we{width: 150px;}
+    .rent{width: 150px;}
+    .menu-list{width: 700px;}
+    .list_prices{left: 5%;
+    margin: 0px;}
+    .name_vidov{left: 20%;
+    position: relative;
+    text-align:unset;}
+    .main_prices img{left: 50%;}
+}
+
+@media (max-width: 850px) {
+    body{height: 100%;}
+    .contli{left: -30%;}
+    .p_footer{left: 16%;}
+    .foot_sites{left: -15%;}
+    .menu-list{left: 0%}
+    .button{left: 1%;}
+    .indexloft{width: 225px;
+    height: 225px;}
+    .divmain{width: 750px;}
+    .prices{width: 150px;}
+    .lofts{width: 150px;}
+    .we{width: 150px;}
+    .rent{width: 150px;}
+    .menu-list{width: 700px;}
+    .list_prices{left: 5%;
+    margin: 0px;}
+    .name_vidov{left: 20%;
+    position: relative;
+    text-align:unset;}
+    .main_prices img{left: 50%;}
 }
